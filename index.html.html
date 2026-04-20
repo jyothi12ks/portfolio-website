@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title>Jyothi | Full stack developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+   html {
+    scroll-behavior: smooth;
+   }
+
+   body {
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+   }
+   
+  header {
+   text-align: center;
+   background-color: #333;
+   color: white;
+   padding: 20px;
+  }
+
+  header img {
+   border-radius: 50%;
+   margin-top: 10px;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+  }
+
+  nav {
+   background-color: #333;
+   padding: 10px;
+   text-align: center;
+  }
+
+  nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+   font-weight: bold;
+   display: inline-block;
+   cursor: pointer;
+  }
+
+  nav a:hover {
+   color: yellow;
+  }
+   
+  section {
+   background-color: white;
+   margin: 20px auto;
+   padding: 15px;
+   border-radius: 10px;
+   width: 90%;
+   max-width: 800px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+   #projects div {
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #333;
+  border-radius: 10px;
+   width: 90%;
+   max-width: 800px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+  table {
+   width: 100%;
+   border-collapse: collapse;
+  }
+
+  th, td {
+   padding: 10px;
+   text-align: center;
+  }
+  
+  th {
+   background-color: #333;
+   color: white;
+  }
+
+  input, textarea {
+   width: 90%;
+   padding: 8px;
+   margin-top: 5px;
+  }
+
+  button {
+   background-color: #333;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+  }
+
+  button:hover {
+   background-color: #555;
+  }
+
+  footer {
+   text-align: center;
+   background-color: #333;
+   color: white;
+   padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+
+   nav a {
+    display:block;
+    margin: 10px 0;
+   }
+  
+   section {
+    width: 95%;
+    padding: 10px;
+   }
+
+   header h1 {
+    font-size: 22px;
+   }
+
+   table {
+    font-size: 12px;
+   }
+ 
+   input, textarea {
+    max-width: 800px;
+    width: 95%;
+   }
+  }
+
+  header button {
+  margin: 10px 5px;
+}
+
+ .dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode section {
+  background-color: #444;
+}
+
+.dark-mode nav {
+  background-color: #222;
+}
+
+.dark-mode header {
+  background-color: #222;
+}
+
+.dark-mode footer {
+  background-color: #222;
+}
+
+#projects a {
+  color: #333;
+}
+
+#projects a:hover {
+  color: blue;
+}
+
+.dark-mode #projects div {
+  background-color: #555;
+  color: white;
+}
+ </style>
+
+</head>
+<body>
+ 
+ <nav>
+  <a href="#about">About</a> 
+  <a href="#projects">Projects</a> 
+  <a href="#skills">Skills</a> 
+  <a href="#education">Education</a> 
+  <a href="#contact_info">Contact Info</a> 
+  <a href="#contact_form">Contact Me</a>
+ </nav>
+
+ <header>
+  <h1>Jyothi</h1>
+  <img src="photo.jpg" alt="Jyothi Profile Photo" height="150" width="150">
+  <p>Aspiring Full Stack Developer | Passionate about building web applications</p>
+  <button id="hireBtn">Hire Me</button>
+  <button id="bgcolor">Dark Mode</button>
+ </header>
+  
+ <main>
+  
+  <section id="about">
+  <h2>About Me</h2>
+  <p id="aboutText">I am a passionate frontend developer with knowledge of HTML, CSS, and JavaScript. 
+  I am currently learning full stack development and building real-world projects.
+  </p>
+  <button id="aboutbtn">Hide</button>
+ </section>
+
+  <section id="projects">
+   <h2>My Projects</h2>
+   
+   <div>
+    <h3>Student Portfolio Website</h3>
+    <p>A responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+    <a href="#" target="_blank">View Project</a>
+  </div>
+
+  <div>
+    <h3>Mini JavaScript App</h3>
+    <p>Interactive app with DOM manipulation and user input handling.</p>
+    <a href="#" target="_blank">View Project</a>
+  </div>
+  </section>
+
+  <section id="skills">
+  <h2>My Skills</h2>
+  <ul>
+   <li>HTML - Intermediate</li>
+   <li>CSS - Intermediate</li>
+   <li>JavaScript - Beginner</li> 
+   <li>C - Intermediate</li>
+   <li>C++ - Intermediate</li>
+  </ul> 
+ </section>
+
+ <section id="contact_info">
+  <h2>Contact Info</h2>
+  <p>Email : ksjyothi95@gmail.com</p>
+ </section>
+
+ <section>
+  <h2>My Links</h2>
+  <a href="https://www.linkedin.com/in/jyothi-k-s-a43566229?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">My LinkedIn</a><br>
+  <a href="https://github.com/jyothi12ks" target="_blank">My GitHub</a>
+ </section>  
+
+ <section id="education">
+  <h2>Education</h2>
+  <table border="1">
+  <tr>
+   <th>Course</th>
+   <th>College</th>
+   <th>Year</th>
+  </tr>
+
+  <tr>
+   <td>PUC(PCMCs)</td>
+   <td>BMSCW</td>
+   <td>2019</td>
+  </tr>
+
+  <tr>
+   <td>BCA</td>
+   <td>BMSCW</td>
+   <td>2023</td>
+  </tr> 
+  </table>
+ </section>
+
+ <section id="contact_form">
+  <h2>Contact Me</h2>
+
+  <form onsubmit="return false;">
+   Name: <input type="text" name="name" placeholder="Enter Your Name"><br><br>
+   Email: <input type="email" name="email" placeholder="Enter Email"><br><br>
+   Message: <br>
+   <textarea name="message" placeholder="Write Your Message"></textarea><br><br>
+   <button type="submit">Send</button>
+  </form>
+ </section>
+
+ </main>
+  
+  <footer>
+  <p>© 2026 Jyothi | Built with HTML, CSS & JavaScript</p>
+ </footer>
+
+ <script>
+  document.getElementById("hireBtn").addEventListener("click", function() {
+    let form = document.getElementById("contact_form");
+    form.scrollIntoView({ behavior: "smooth" });
+    form.style.border = "2px solid blue";
+  });
+
+  let isVisible = true;
+  document.getElementById("aboutbtn").addEventListener("click", function() {
+   let aboutText = document.getElementById("aboutText");
+   
+    if(isVisible) {
+     aboutText.style.display = "none";
+     this.innerText = "Show About";
+    } else {
+     aboutText.style.display = "block";
+     this.innerText = "Hide About";
+    }
+  
+    isVisible = !isVisible;
+  });
+ 
+  document.getElementById("bgcolor").addEventListener("click", function() {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    this.innerText = "Light Mode";
+  } else {
+    this.innerText = "Dark Mode";
+  }
+});
+
+ </script>
+</body>
+</html>
